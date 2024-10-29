@@ -35,7 +35,7 @@ const HeroPage = () => {
       ></Box>
       <Box
         sx={{
-          backgroundImage: 'url("/beach-4765672_1920.jpg")',
+          backgroundImage: 'url("/coffee-5303998_1920.jpg")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",
