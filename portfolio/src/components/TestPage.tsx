@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 
-const MainPage = () => {
+const TestPage = () => {
   return (
     <Box>
       <Typography variant="h2">mui 적용 테스트</Typography>
@@ -16,4 +16,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default TestPage;
