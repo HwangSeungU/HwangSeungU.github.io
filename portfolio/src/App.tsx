@@ -7,7 +7,6 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/" Component={TestPage} /> */}
         <Route path="/" Component={MainPage}></Route>
       </Routes>
     </BrowserRouter>

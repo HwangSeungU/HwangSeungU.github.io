@@ -1,6 +1,8 @@
 import { Box } from "@mui/material";
 import Header from "./Header";
 import HeroPage from "./HeroPage";
+import AboutMe from "./AboutMe";
+import Skills from "./Skills";
 
 const MainPage = () => {
   return (
@@ -12,7 +14,7 @@ const MainPage = () => {
     >
       <Box
         sx={{
-          position: "absolute",
+          position: "fixed",
           zIndex: "1",
           width: "100%",
         }}
@@ -20,6 +22,8 @@ const MainPage = () => {
         <Header />
       </Box>
       <HeroPage />
+      <AboutMe />
+      <Skills />
     </Box>
   );
 };
